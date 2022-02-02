@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/ANDX-Entertainment/Blitz-Tix-Node#readme",
   "dependencies": {
+    "@types/react-router-dom": "^5.3.3",
     "express": "^4.17.2",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1"
   }
 }

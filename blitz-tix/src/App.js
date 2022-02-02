@@ -1,6 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
+import appRoutes from "./views/components/routes";
+
+import logo from './logo.svg';
 
 function App() {
   return (
@@ -19,8 +23,10 @@ function App() {
           Learn React
         </a>
       </header>
+        <appRoutes/>
     </div>
   );
 }
+
 
 export default App;
