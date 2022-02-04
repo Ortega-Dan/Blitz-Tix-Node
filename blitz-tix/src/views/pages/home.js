@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.css';
+import '../styles/styles.css';
 
 function AppHome() {
   return (
@@ -48,18 +48,18 @@ function AppHome() {
             <div className="section"><span>1</span>Email &amp; Phone</div>
             <div className="inner-wrap">
               <label>Phone Number</label>
-              <label>(208) 534-5699</label>
+              <label className='black'>(208) 534-5699</label>
             </div>
 
             <div className="section"><span>2</span>Events</div>
             <div className="inner-wrap">
               <label>Email </label>
-              <label>EVENTS@ANDX.US</label>
+              <label className='black'>EVENTS@ANDX.US</label>
             </div>
 
             <div className="section"><span>3</span>Address</div>
             <div className="inner-wrap">
-              <label>525 RIVER PKWY IDAHO FALLS IDAHO, 83402</label>
+              <label className='black'>525 RIVER PKWY IDAHO FALLS IDAHO, 83402</label>
               {/* <label><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.271796230671!2d-112.04658478422621!3d43.49666527055621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53545950bbed4e1b%3A0xa0f34b4d0d29098f!2s525%20River%20Pkwy%2C%20Idaho%20Falls%2C%20ID%2083402%2C%20USA!5e0!3m2!1sen!2suk!4v1622755818010!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></label> */}
             </div>
 
