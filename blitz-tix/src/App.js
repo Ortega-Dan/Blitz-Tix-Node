@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 // import AppRoutes from "./views/components/routes";
-import AppHome from "./views/pages/home";
+import AppContactUs from "./views/pages/contactus";
 import ReactTemplate from "./views/pages/reactTemplate";
 
 
@@ -15,7 +15,7 @@ function App() {
     
     <div className="App">
       
-      <AppHome/>
+      <AppContactUs/>
       
     </div>
     

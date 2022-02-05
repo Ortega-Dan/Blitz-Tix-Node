@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/styles.css';
 
-function AppHome() {
+function AppContactUs() {
   return (
     <div>
       <h1>Contact Us!</h1>
@@ -76,4 +76,4 @@ function AppHome() {
   );
 }
 
-export default AppHome;
+export default AppContactUs;
